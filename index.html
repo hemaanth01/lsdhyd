@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lassi Day cafe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('./images/Cafe4.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-text-black">
+<!--   <div class="w3-display-middle w3-jumbo">
+    <p>logo</p>
+  </div> -->
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-red">Menu</button></p>
+    <!-- <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-red">contact</button></p> -->
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>
+    <p class="w3-large">42 village St, New York</p>
+    <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-red w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>LASSI</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Sweet Lassi 	    <b> : 35</b></h5>
+      <h5>Banana Lassi      <b> : 45</b></h5>
+	  <h5>Mango Lassi 	    <b> : 45</b></h5>
+      <h5>Strawberry Lassi  <b> : 55</b></h5>
+	  <h5>Pista Lassi 	    <b> : 55</b></h5>
+	  <h5>Chocolate Lassi   <b> : 55</b></h5>
+	  <h5>Dryfruit Lassi    <b> : 65</b></h5>
+	  <h5>Royal Lassi       <b> : 65</b></h5>
+    </div>
+	 <div class="w3-container w3-red">
+      <h1>FALOODA</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Falooda SPL             <b> : 70</b></h5>
+	  <h5>Pista Falooda           <b> : 80</b></h5>
+	  <h5>Fruity Falooda 		  <b> : 80</b></h5>
+	  <h5>Royal Kashimiri Falooda <b> : 99</b></h5>
+      
+    </div>
+    <div class="w3-container w3-red">
+      <h1>ICE CREAMS</h1>
+    </div>
+    <div class="w3-container">
+     <h5>Fruit Salad Icecream <b> : 70</b></h5>
+	 <h5>Fruit Salad Icecream & Jelly <b> : 80</b></h5>
+	 <h5>Mexican brownie <br> Chocolate Fudge <b> : 70</b></h5>
+	 <h5>Black current Fudge <b> : 80</b></h5>
+	 <h5>Butterscotch Fudge <b> : 80</b></h5>
+	 <h5>Strawberry Fudge <b> : 80</b></h5>
+	 <h5>Good Bud <b> : 80</b></h5>
+    </div>
+	
+	<div class="w3-container w3-red">
+      <h1>SPL ICE CREAMS</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Death by chocolate <br> Dry fruit Sundae <b> : 120</b></h5>
+	 <h5>Roasted Almond <br> Lychee with Ice Cream <b> : 125</b></h5>
+	 <h5>Sizzling brownie <br> <b>Kerala puttu</b> ice cream <b> : 130</b></h5>
+    </div>
+	
+	<div class="w3-container w3-red">
+      <h1>COLD COFFEE</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Cold Cofee  <b> : 60</b></h5>
+	 <h5>Chocolate Cofee  <b> : 70</b></h5>
+	 <h5>Oreo & Cofee  <b> : 70</b></h5>
+	 <h5>Cofee On Rocks  <b> : 70</b></h5> 
+    </div>
+	
+	<div class="w3-container w3-red">
+      <h1>CAPPUCCHINO</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Baby Boba Cofee  <b> : 90</b></h5>
+	 <h5>Mud Cofee  <b> : 90</b></h5>
+	 
+    </div>
+	
+	<div class="w3-container w3-red">
+      <h1>ON NUTELLA</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Nutella shake  <b> : 110</b></h5>
+	 <h5>Nutella Brownie Icecream  <b> : 110</b></h5>
+	 <h5>Nutella Fudge Icecream  <b> : 110</b></h5>
+    </div>
+	
+	<div class="w3-container w3-red">
+      <h1>ON MOJITO</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Blue Blast  <b> : 69</b></h5>
+	 <h5>Boba Melon  <b> : 69</b></h5>
+	 <h5>Lychee Melon Boba  <b> : 79</b></h5>
+	 <h5>Mango Boba  <b> : 79</b></h5>
+	 <h5>Pulpy Orange Boba  <b> : 79</b></h5>
+    </div>
+	
+	<div class="w3-container w3-red">
+      <h1>MILK SHAKES</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Banana Bonkers  <b> : 50</b></h5>
+	 <h5>Pista shake  <b> : 50</b></h5>
+	 <h5>Vanilla shake  <b> : 50</b></h5>
+	 <h5>Belgian chocolate  <b> : 60</b></h5>
+	 <h5>Very Berry Strawberry  <b> : 60</b></h5>
+	 <h5>Oreo  <b> : 70</b></h5>
+	 <h5>Chocochip cookies  <b> : 70</b></h5>
+	 <h5>Mango Berry  <b> : 70</b></h5>
+	 <h5>Kalaa Jamoon  <b> : 70</b></h5>
+	 <h5>Mango Alphonso  <b> : 70</b></h5>
+	 <h5>Belgian chip  <b> : 80</b></h5>
+	 <h5>Hopscotch butterscotch  <b> : 80</b></h5>
+	 <h5>KitKat shake  <b> : 80</b></h5>
+	 <h5>Snickers  <b> : 80</b></h5>
+	 <h5>Choco Bubble Shake  <b> : 89</b></h5>
+	 <h5>Mango Bubble Shake  <b> : 89</b></h5>
+	 <h5>Berry Bubble Shake  <b> : 89</b></h5>
+	 <h5>Chocolate Frappe  <b> : 90</b></h5>
+	 <h5>Lychee & Lychee  <b> : 90</b></h5>
+	 <h5>Lychee & Mango  <b> : 90</b></h5> 
+    </div>
+	
+	<div class="w3-container w3-red">
+      <h1>MUDS</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Mississippi Mud  <b> : 110</b></h5>
+	 <h5>Oreo Mud  <b> : 120</b></h5>
+	 <h5>KitKat Mud  <b> : 120</b></h5>
+	 </div>
+	 
+	 <div class="w3-container w3-red">
+      <h1>DRY FRUIT SHAKES</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Dry Fruit Shake  <b> : 90</b></h5>
+	 <h5>Arabian Night Shake  <b> : 90</b></h5>
+	 </div>
+	 
+	 <div class="w3-container w3-red">
+      <h1>FRESH JUICE</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Fresh Lime  <b> : 25</b></h5>
+	 <h5>Masala Lime  <b> : 30</b></h5>
+	 <h5>Watermelon  <b> : 50</b></h5>
+	 <h5>Muskmelon  <b> : 50</b></h5>
+	 <h5>Pineapple  <b> : 50</b></h5>
+	 <h5>Papaya  <b> : 50</b></h5>
+	 <h5>Apple  <b> : 60</b></h5>
+	 <h5>Orange  <b> : 60</b></h5>
+	 <h5>Mango  <b> : 60</b></h5>
+	 </div>
+	 
+	 <div class="w3-container w3-red">
+      <h1>NO WATER NO ICE NO SUGAR</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>ABC(apple + beetroot+carrot)  <b> : 70</b></h5>
+	 <h5>CAP(carrot+ apple + pineapple)  <b> : 70</b></h5>
+	 </div>
+	 
+	  <div class="w3-container w3-red">
+      <h1>ADD ONS</h1>
+    </div>
+    <div class="w3-container">
+	 <h5>Extra chocochips  <b> : 10</b></h5>
+	 <h5>Extra chocolate   <b> : 10</b></h5>
+	 <h5>Extra Nuts        <b> : 15</b></h5>
+	 </div>
+
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-red">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
